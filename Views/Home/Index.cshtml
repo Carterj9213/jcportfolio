@@ -1,0 +1,1146 @@
+﻿@model jcportfolio.Models.EmailModel
+
+
+@{
+    Layout = null;
+}
+
+
+
+
+<!doctype html>
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+
+<html lang="en">
+
+<head>
+
+    <!-- Basic -->
+    <title>John Carters Portfolio | Home</title>
+
+    <!-- Define Charset -->
+    <meta charset="utf-8">
+
+    <!-- Responsive Metatag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Page Description and Author -->
+    <meta name="description" content="Sulfur - Responsive HTML5 Template">
+    <meta name="author" content="John Carter">
+
+    <!--JC tab picture-->
+    <link rel="shortcut icon" href="~/images/Personal_Pics/Webp.net-resizeimage.jpg" />
+
+    <!-- Bootstrap CSS  -->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Font Awesome CSS -->
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+    <!-- Owl Carousel CSS -->
+
+    <link href="~/Content/owl.carousel.css" rel="stylesheet" />
+    <link href="~/Content/owl.theme.css" rel="stylesheet" />
+    <link href="~/Content/owl.transitions.css" rel="stylesheet" />
+
+    <!-- Css3 Transitions Styles  -->
+    <link href="~/Content/animate.css" rel="stylesheet" />
+
+    <!-- Lightbox CSS -->
+    <link href="~/Content/lightbox.css" rel="stylesheet" />
+
+    <!-- Sulfur CSS Styles  -->
+    <link href="~/Content/style.css" rel="stylesheet" />
+
+    <!-- Responsive CSS Style -->
+    <link href="~/Content/responsive.css" rel="stylesheet" />
+
+
+
+
+    <script src="~/Scripts/modernizrr.js"></script>
+
+    <!--SyntaxHighlighter-->
+    <link href="~/Scripts/SyntaxHighlighter/styles/shCore.css" rel="stylesheet" />
+    <link href="~/Scripts/SyntaxHighlighter/styles/shThemeDefault.css" rel="stylesheet" />
+
+    <!--Reverse a string-->
+    <link href="~/Content/style1.css" rel="stylesheet" />
+
+    <!--button-->
+    <link href="~/Content/Custom.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <header class="clearfix">
+
+        <!-- Start Top Bar -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="top-bar">
+                        <div class="row">
+
+                            <div class="col-md-6">
+                                <!-- Start Contact Info -->
+                                @*<ul class="contact-details">
+                                        <li>
+                                            <a href="#"><i class="fa fa-phone"></i> +1 (336) 520-1329</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.google.com/" target="_blank"><i class="fa fa-envelope-o"></i>  jc56wrestling@yahoo.com </a>
+                                        </li>
+                                    </ul>*@
+
+                            </div>
+                            <!-- End Contact Info -->
+
+                            <div class="col-md-6">
+                                <!-- Start Social Links -->
+                                <ul class="social-list">
+                                    <li>
+                                        <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.skype.com" target="_blank"><i class="fa fa-skype"></i></a>
+                                    </li>
+                                </ul>
+                                <!-- End Social Links -->
+                            </div><!-- .col-md-6 -->
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div><!-- .row -->
+        </div><!-- .container -->
+        <!-- End Top Bar -->
+        <!-- Start  Logo & Naviagtion  -->
+        <div class="navbar navbar-default navbar-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- Stat Toggle Nav Link For Mobiles -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <!-- End Toggle Nav Link For Mobiles -->
+                    <a class="navbar-brand" href="index.html">John M. Carter IV</a>
+                </div>
+                <div class="navbar-collapse collapse">
+
+                    <!-- Start Navigation List -->
+                    <!-- (at symbol)Url.Action("About", "Home")-->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a class="active" href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about-section">About Me</a>
+
+                        <li>
+                            <a href="#portfolio">Portfolio Exercises</a>
+                            <ul class="dropdown">
+                                <li>
+                                    <a href="#myModal" data-toggle="modal">JavaScript Exercises</a>
+                                </li>
+                                <li>
+                                    <a href="#portfolio-list">Blog</a>
+                                </li>
+                                @*<li>
+                                        <a href="#portfolio-list">Week 3</a>
+                                    </li>
+                                    <li>
+                                        <a href="#portfolio-list">Week 4</a>
+                                    </li>
+                                    <li>
+                                        <a href="#portfolio-list">Week 5</a>
+                                    </li>
+                                    <li>
+                                        <a href="#portfolio-list">Week 6</a>
+                                    </li>*@
+
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#resume-section">Resume</a>
+                        </li>
+                        <li>
+                            <a href="https://johnblog.azurewebsites.net/" target="_blank">Blog</a>
+                            @*<ul class="dropdown">
+                                <li>
+                                    <a href="#">Item Page Coming Soon</a>
+                                </li>
+                            </ul>*@
+                        </li>
+                        <li>
+                            <a href="#footer-section">Contact</a>
+                        </li>
+                    </ul>
+                    <!-- End Navigation List -->
+                </div>
+            </div>
+        </div>
+        <!-- End Header Logo & Naviagtion -->
+
+    </header>
+
+
+    <!-- Start Header Section -->
+    <div class="banner">
+        <div class="overlay">
+            <div class="container">
+                <div class="intro-text">
+                    <h1>Welcome To <span>MY</span> Portfolio</h1>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Header Section -->
+    <!-- Start About Me Section -->
+    <section id="about-section" class="about-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title text-center wow fadeInDown" data-wow-duration="2s" data-wow-delay="50ms">
+                        <h2>About Me</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="about-img">
+                        <img src="~/images/corporate1.jpg" class="img-responsive" alt="About images">
+
+                        <div class="head-text">
+                            @*<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus vitae ligula elementum ut luctus lorem facilisis.</p>*@
+                            <span>Personal Image coming soon!</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="about-text">
+                        <p>Hello, my name is John M. Carter IV.  I am 25 Years old, born and raised in North Carolina. I love to explore, try new things, go to the beach, hang out with friends, going to concerts, and spend time with my family. I attended college and have a Associates Degree in Electronics Engineering Technology. Over the past few years I have worked for Spectrum learning the ins and outs on a variety of different types of technology and how they apply to our everyday lives. Currently, I am enrolled in a 12 week coding course to become a Full Stack Developer. </p>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="about-list">
+                        <h4><span>My Knowledge:</span></h4>
+                        <br />
+                        <h5>Programming Languages:</h5>
+                        <br />
+                        <ul>
+                            <li><i class="fa fa-check-square"></i>BootStrap</li>
+                            <li><i class="fa fa-check-square"></i>C#</li>
+                            <li><i class="fa fa-check-square"></i>CSS</li>
+                            <li><i class="fa fa-check-square"></i>HTML</li>
+                            <li><i class="fa fa-check-square"></i>JavaScript</li>
+                            <li><i class="fa fa-check-square"></i>JQuery</li>
+                            <li><i class="fa fa-check-square"></i>MVC</li>
+
+
+
+                        </ul>
+                        <br />
+                        <h4><span>Other Things:</span></h4>
+                        <br />
+                        <ul>
+                            <li><i class="fa fa-check-square"></i>PLCs (Allen Bradley)</li>
+                            <li><i class="fa fa-check-square"></i>Variable Frequency Drives (VFD)</li>
+                            <li><i class="fa fa-check-square"></i>Hydraulics</li>
+                            <li><i class="fa fa-check-square"></i>Able to read Schematic Diagrams</li>
+                            <li><i class="fa fa-check-square"></i>Robotics</li>
+                            <li><i class="fa fa-check-square"></i>AC/DC Voltage</li>
+                            <li><i class="fa fa-check-square"></i>Computer Hardware</li>
+                            <li><i class="fa fa-check-square"></i>Networking</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Start Call to Action Section -->
+    <section class="call-to-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 wow zoomIn" data-wow-duration="2s" data-wow-delay="300ms">
+                    @*<p>Awesome Aires Template is ready for <br> Business, Agency, Landing or Creative Portfolio<br>Aires is Responsive and help you to grow your business</p>*@
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Call to Action Section -->
+    <!-- Start Team Member Section -->
+    @*<section id="team-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title text-center wow fadeInDown" data-wow-duration="2s" data-wow-delay="50ms">
+                            <h2>Our Team</h2>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="300ms">
+                        <div class="team-member">
+                            <img src="~/images/team/team-1.jpg" class="img-responsive" alt="">
+                            <div class="team-details">
+                                <h4>John Doe</h4>
+                                <p>Founder & Director</p>
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>*@
+    <!-- End Team Member Section -->
+    <!-- Start Portfolio Section -->
+    <section id="portfolio" class="portfolio-section-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title text-center wow fadeInDown" data-wow-duration="2s" data-wow-delay="50ms">
+                        <h2>My Portfolio</h2>
+                        <p>Take a Glance at My Work</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+
+                    <!-- Start Portfolio items -->
+                    <ul id="portfolio-list">
+                        <li class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="300ms">
+                            <div class="portfolio-item">
+                                <img src="~/images/Personal_Pics/Webp.net-resizeimage (2).jpg" class="img-responsive" alt="" />
+                                <div class="portfolio-caption">
+                                    <h4>JavaScript Excercises:</h4>
+                                    <p>Select the icon to left to see my examples of JavaScript. <br /> Select the icon the the right to go to a blank Google search page.</p>
+                                    <a href="#myModal" data-toggle="modal" class="link-1"><i class="fa fa-tasks"></i></a>
+                                    <a href="https://www.google.com" class="link-2" target="_blank"><i class="fa fa-search"></i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="600ms">
+                            <div class="portfolio-item">
+                                <img src="~/images/Personal_Pics/Webp.net-resizeimage (4).jpg" class="img-responsive" alt="" />
+                                <div class="portfolio-caption">
+                                    <h4>Blog:</h4>
+                                    <p>Select the icon below to be taken to my Blog website.</p>
+                                    <a href="#portfolio-modal" data-toggle="modal" class="link-1"><i class="fa fa-"></i></a>
+                                    <a href="https://johnblog.azurewebsites.net/" class="link-2" target="_blank"><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="900ms">
+                            <div class="portfolio-item">
+
+                                <img src="~/images/bugtrackerLogo.jpg" class="img-responsive" alt="" />
+                                <div class="portfolio-caption">
+                                    <h4>Bug Tracker:</h4>
+                                    <p>COMING SOON</p>
+                                    @*<a href="#portfolio-modal" data-toggle="modal" class="link-1"><i class="fa fa-magic"></i></a>
+                                    <a href="#" class="link-2"><i class="fa fa-link"></i></a>*@
+                                </div>
+                            </div>
+                        </li>
+                        <li class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1200ms">
+                            <div class="portfolio-item">
+
+                                <img src="~/images/comingsoon.png" class="img-responsive" alt="" />
+                                <div class="portfolio-caption">
+                                    <h4>week 4</h4>
+                                    <p>COMING SOON</p>
+                                    @*<a href="#portfolio-modal" data-toggle="modal" class="link-1"><i class="fa fa-magic"></i></a>
+                                    <a href="#" class="link-2"><i class="fa fa-link"></i></a>*@
+                                </div>
+                            </div>
+                        </li>
+                        <li class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1500ms">
+                            <div class="portfolio-item">
+
+                                <img src="~/images/comingsoon.png" class="img-responsive" alt="" />
+                                <div class="portfolio-caption">
+                                    <h4>Week 5</h4>
+                                    <p>COMING SOON</p>
+                                    @*<a href="#portfolio-modal" data-toggle="modal" class="link-1"><i class="fa fa-magic"></i></a>
+                                    <a href="#" class="link-2"><i class="fa fa-link"></i></a>*@
+                                </div>
+                            </div>
+                        </li>
+                        <li class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1800ms">
+                            <div class="portfolio-item">
+
+                                <img src="~/images/comingsoon.png" class="img-responsive" alt="" />
+                                <div class="portfolio-caption">
+                                    <h4>Week 6</h4>
+                                    <p>COMING SOON</p>
+                                    <a href="#portfolio-modal" data-toggle="modal" class="link-1"><i class="fa fa-magic"></i></a>
+                                    <a href="#" class="link-2"><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                    <!-- End Portfolio items -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Portfolio Section -->
+    <!-- Start Service Section -->
+    <section id="resume-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title text-center wow fadeInDown" data-wow-duration="2s" data-wow-delay="50ms">
+                        <h2>My Resume</h2>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="services-post">
+                        <a href="https://www.linkedin.com/feed/?trk=onboarding-landing" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        <h2>Linkedin</h2>
+                        <p>Select the icon above to see my Linkedin Profile</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="services-post">
+                        <a href="~/Resume/John Carter Resume.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
+                        <h2>RESUME</h2>
+                        <p>Select the icon above to see my Resume</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Start Service Section -->
+    <!-- Start Testimonial Section -->
+    @*<section id="testimonial-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="testimonial-wrapper">
+                            <div class="testimonial-item">
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                                <img src="asset/images/team/team-1.jpg" alt="Testimonial images">
+                                <h5>John Doe</h5>
+                                <div class="desgnation">CEO, ThemeBean</div>
+                            </div>
+                            <div class="testimonial-item">
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                <img src="asset/images/team/team-2.jpg" alt="Testimonial images">
+                                <h5>John Doe</h5>
+                                <div class="desgnation">CEO, ThemeBean</div>
+                            </div>
+                            <div class="testimonial-item">
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                <img src="asset/images/team/team-3.jpg" alt="Testimonial images">
+                                <h5>John Doe</h5>
+                                <div class="desgnation">CEO, ThemeBean</div>
+                            </div>
+                            <div class="testimonial-item">
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                <img src="asset/images/team/team-4.jpg" alt="Testimonial images">
+                                <h5>John Doe</h5>
+                                <div class="desgnation">CEO, ThemeBean</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>*@
+    <!-- End Testimonial Section -->
+    <!-- Start Footer Section -->
+<section id="footer-section" class="footer-section">
+    <div class="container">
+        <div class="contact-info">
+            <h2>CONTACT ME</h2>
+            <p></p>
+        </div>
+
+        @using (Html.BeginForm("Contact", "Home", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+            <h4>Please fill in all the empty fields below to send me an email:</h4>
+            <hr />
+            @Html.ValidationSummary("", new { @class = "text-danger" })
+            <div class="row">
+
+                <div class="form-group">
+                    @*@Html.LabelFor(m => m.FromName, new { @class = "col-md-2 control-label" })*@
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(m => m.FromName, new { @class = "form-control", placeholder = "Name" })
+                        @Html.ValidationMessageFor(m => m.FromName)
+                    </div>
+                </div>
+
+            </div>
+            <br />
+            <div class="row">
+                <div class="form-group">
+                    @*@Html.LabelFor(m => m.FromEmail, new { @class = "col-md-2 control-label" })*@
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(m => m.FromEmail, new { @class = "form-control", placeholder = "Example@email.com" })
+                        @Html.ValidationMessageFor(m => m.FromEmail)
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="form-group">
+                    @*@Html.LabelFor(m => m.Subject, new { @class = "col-md-2 control-label" })*@
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(m => m.Subject, new { @class = "form-control", placeholder = "Subject" })
+                        @Html.ValidationMessageFor(m => m.Subject)
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="form-group">
+                    @*@Html.LabelFor(m => m.Body, new { @class = "col-md-2 control-label" })*@
+                    <div class="col-md-10">
+                        @Html.TextAreaFor(m => m.Body, new { @class = "form-control", placeholder = "Enter Text Here" })
+                        @Html.ValidationMessageFor(m => m.Body)
+                    </div>
+                </div>
+            </div>
+            <br />
+
+            <div>
+                <div class="form-group">
+                    <div class="col-md-10">
+                        <input type="submit" class="btn btn-primary" value="Send" />
+                    </div>
+                </div>
+            </div>
+
+
+
+        }
+
+    </div>
+
+
+
+
+
+    @*<div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="section-heading-2">
+                        <h3 class="section-title">
+                            <span>Email Link Coming Soon!</span>
+                        </h3>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>*@
+
+</section>
+    <!-- End Footer Section -->
+    <!-- Start CCopyright Section -->
+    <div id="copyright-section" class="copyright-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="copyright">
+                        <p>
+                            Copyright © 2014. All Rights Reserved.Design and Developed by <a href="http://www.themefisher.com">Themefisher</a> Edited by John Carter
+                        </p>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <!-- End CCopyright Section -->
+    <!--Modal Section-->
+
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">JavaScript Exercises</h4>
+                </div>
+
+                <div class="modal-body">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#JS1">JS Factorial</a></li>
+                        <li><a data-toggle="tab" href="#menu1">Fizz-Buzz</a></li>
+                        <li><a data-toggle="tab" href="#menu2">JS Math</a></li>
+                        <li><a data-toggle="tab" href="#menu3">Palindrome</a></li>
+                    </ul>
+                    <!--JS Factorial-->
+                    <div class="tab-content">
+                        <div id="JS1" class="tab-pane fade in active">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-12 text-center text-bold h2">
+                                        This exercise will calculate the Factorial of any number under 171:
+                                    </div>
+                                </div>
+
+                                <br />
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <div class="col-md-6">Enter a number:</div>
+                                            <div class="col-md-6">
+                                                <input id="inputFactorial" type="number" />
+                                            </div>
+                                        </div>
+
+                                        <hr />
+
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <button id="btnCalc" class="btn btn-danger btn-wide">Calculate</button>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <button id="btnClear" class="btn btn-primary btn-wide">Clear</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="col-md-12 text-center text-bold">Output:</div>
+                                        </div>
+                                        <hr />
+                                        <div class="row text-center">
+                                            <p class="text-bold" id="output"></p>
+                                        </div>
+                                    </div>
+                                    <br />
+
+                                    <div class="col-md-12">
+                                        <button id="btnCodeFactorial" class="btn btn-info btn-wide">Show/Hide Code</button>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div id="divCodeFactorial">
+                                            <pre class="brush: js">
+                                                    $("#btnClear").click(function () {
+                                                        $("#inputFactorial").val("");
+                                                        $("#output").text("");
+                                                    });
+
+                                                    $("#btnCalc").click(function () {
+                                                        //Step 1: Get the user data
+                                                        var input = Number($("#inputFactorial").val());
+
+                                                        //Step 2: Do something with it
+                                                        var output = input;
+
+                                                        if (input > 0) {
+                                                            for (var loop = input - 1; loop > 1; loop--) {
+                                                                output *= loop;
+                                                            }
+
+                                                        }
+                                                        else if (input == 0) {
+                                                            output = 1;
+                                                        }
+                                                        else {
+                                                            output = "undefined";
+                                                        }
+
+                                                        //Step 3: Inform the user
+                                                        $("#output").text("The Factorial of " + input + "is" + output);
+                                                    });
+
+
+                                            </pre>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+
+                            </div>
+
+                        </div>
+
+                        <!--FizzBuzz-->
+
+                        <div id="menu1" class="tab-pane fade">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-12 text-center text-bold h3">
+                                        Enter a number in each box below <br />to calculate Fizz-Buzz:
+                                    </div>
+                                </div>
+                                <br />
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="row">
+                                            <div class="col-md-3">Number 1:</div>
+                                            <div class="col-md-3">
+                                                <input id="num1" type="number" />
+                                            </div>
+                                            @*The Output*@
+                                            <div class="col-md-5 col-md-offset-1 text-center h4">
+                                                Fizz-Buzz Output:
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-3">Number 2:</div>
+                                            <div class="col-md-3">
+                                                <input id="num2" type="number" />
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+                                <br />
+
+                                @*<div class="row">
+                                    <div class="col-md-3">Number 2:</div>
+                                    <div class="col-md-3">
+                                        <input id="num2" type="number" />
+                                    </div>
+                                </div>*@
+
+                                
+
+                                @*Button Row*@
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <button id="btnStart" class="btn btn-danger btn-wide">Start</button>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <button id="btnClear2" class="btn btn-primary btn-wide">Clear</button>
+                                    </div>
+                                        @*The Output*@
+                                    <div class="col-md-5 col-md-offset-1">
+                                        <p id="output2"></p>
+                                    </div>
+
+                                </div>
+                                <br />
+
+                                <div class="col-md-12">
+                                    <button id="btnCodeFizzBuzz" class="btn btn-info btn-wide">Show/Hide Code</button>
+
+                                </div>
+
+
+                                <br />
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div id="divCodeFizzBuzz">
+                                            <pre class="brush: js">
+                                                $("#btnClear2").click(function () {
+                                                    $("#num1").val("");
+                                                    $("#num2").val("");
+                                                    $("#output2").text("");
+                                                });
+
+                                                $("#btnStart").click(function () {
+
+                                                    //Step 1: Get Data
+                                                    var input1 = Number($("#num1").val());
+                                                    var input2 = Number($("#num2").val());
+                                                    var output = "";
+
+                                                    //Step 2: Make a Calc
+                                                    for (var loop = 1; loop <= 100; loop++) {
+                                                        var fizzCondition = loop % input1 == 0 ? true : false;
+                                                        var buzzCondition = loop % input2 == 0 ? true : false;
+
+                                                        if (fizzCondition && buzzCondition) {
+                                                            output += "Fizz-Buzz, ";
+                                                        }
+                                                        else if (fizzCondition) {
+                                                            output += "Fizz, ";
+                                                        }
+                                                        else if (buzzCondition) {
+                                                            output += "Buzz, ";
+                                                        }
+                                                        else {
+                                                            output += loop + ", ";
+                                                        }
+                                                    }
+
+                                                    output = output.substr(0, output.length - 2)
+
+                                                    //Step 3: Output
+                                                    $("#output2").text(output);
+                                                });
+
+
+                                            </pre>
+
+                                        </div>
+
+
+
+
+
+
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                        <!--JS Math-->
+
+                        <div id="menu2" class="tab-pane fade">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class=" col-md-12 h2 text-center">
+                                        <strong>JavaScript Simple Math Excercise</strong>
+                                        Enter five numbers below to get your total:
+                                    </div>
+                                </div>
+
+                                <br />
+
+                                <div class="row">
+                                    <div class="col-md-4">Enter number 1:</div>
+                                    <div class="col-md-8">
+                                        <input type="number" id="number1" />
+
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="row">
+                                    <div class="col-md-4">Enter number 2:</div>
+                                    <div class="col-md-8">
+                                        <input type="number" id="number2" />
+
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="row">
+                                    <div class="col-md-4">Enter number 3:</div>
+                                    <div class="col-md-8">
+                                        <input type="number" id="number3" />
+
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="row">
+                                    <div class="col-md-4">Enter number 4:</div>
+                                    <div class="col-md-8">
+                                        <input type="number" id="number4" />
+
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="row">
+                                    <div class="col-md-4">Enter number 5:</div>
+                                    <div class="col-md-8">
+                                        <input type="number" id="number5" />
+
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="row">
+                                    <p id="sum">Your sum will be displayed here...</p>
+                                    <p id="product">Your product will be displayed here...</p>
+                                    <p id="avg">Your average will be displayed here...</p>
+                                    <p id="max">Your max will be displayed here...</p>
+                                    <p id="min">Your min will be displayed here...</p>
+                                </div>
+
+                                <br />
+
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <button id="btnMath" class="btn btn-danger btn-wide">Calculate</button>
+
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <button id="btnClear3" class="btn btn-primary btn-wide">Clear</button>
+
+                                    </div>
+
+                                </div>
+                                <br />
+
+                                <div class="col-md-12">
+                                    <button id="btnCodeMath" class="btn btn-info btn-wide">Show/Hide Code</button>
+
+                                </div>
+
+
+                                <br />
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div id="divCodeMath">
+                                            <pre class="brush: js">
+                                                $("#btnMath").click(function () {
+                                                    //Step 1: Acquire the user input
+
+                                                    //var number1 = Number($("#number1").val());
+                                                    var strNumber1 = $("#number1").val();
+                                                    var number1 = Number(strNumber1);
+
+                                                    //var number2 = Number($("#number2").val());
+                                                    var strNumber2 = $("#number2").val();
+                                                    var number2 = Number(strNumber2);
+
+                                                    var number3 = Number($("#number3").val());
+                                                    var number4 = Number($("#number4").val());
+                                                    var number5 = Number($("#number5").val());
+  
+                                                    ////Step 2: Do something with it
+                                                    //    //Calculate the Sum 
+                                                         var sum = number1 + number2 + number3 + number4 + number5;
+                                                    //    Calculate the Product
+                                                        var product = number1 * number2 * number3 * number4 * number5;
+                                                    //    Calculate the Average
+                                                        var avg = sum / 5;
+                                                    //    //Calculate the Largest
+                                                        var max = Math.max(number1, number2, number3, number4, number5);
+                                                    //    //Calculate the Smallest
+                                                        var min = Math.min(number1, number2, number3, number4, number5);
+
+                                                        //Step 3: Out the results to the screen
+                                                    $("#sum").text("The sum of your input is: " + sum);
+                                                    $("#product").text("The product of your input is: " + product);
+                                                    $("#avg").text("The average of your input is: " + avg);
+                                                    $("#max").text("The max of your input is: " + max);
+                                                    $("#min").text("The min of your input is: " + min);
+
+                                                });
+
+                                                $("#btnClear3").click(function () { 
+                                                    $("#sum").text("");
+                                                    $("#number1, #number2, #number3, #number4, #number5").val("");
+                                                    $("#sum, #product, #avg, #max, #min").text("");
+                                                });
+
+
+                                        </pre>
+
+                                        </div>
+
+
+
+
+
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!--Palindrome-->
+
+                        <div id="menu3" class="tab-pane fade">
+                            <img src="~/images/ReverseAstring.png" class="responsive" />
+                            <div class="rev-style">
+                                <div class="rev-style-heading">
+                                    Enter A Word Below To See If It Is A Palindrome:
+                                </div>
+                                <label><span>Enter a Word:</span><input id="value" type="text" name="reverseME" /></label>
+                                <label>
+                                    <span>Results:</span>
+                                    <textarea id="result" name="Results" class="textarea-field"></textarea>
+                                </label>
+                                <label><span> Is Palidrome:</span><input type="checkbox" id="IsPalindrome" /></label>
+                                @*<label><span></span><input type="submit" onclick="revME()" value="Reverse Me" /></label>*@
+
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <button id="btnInputPal" class="btn btn-danger btn-wide">Reverse</button>
+
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <button id="btnClearPal" class="btn btn-primary btn-wide">Clear</button>
+
+                                    </div>
+
+                                </div>
+                                <br />
+
+                                <div class="col-md-12">
+                                    <button id="btnCodePal" class="btn btn-info btn-wide">Show/Hide Code</button>
+
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div id="divCodePal">
+                                            <pre class="brush: js">
+                                            $("#btnInputPal").click(function () {
+                                                let reversed = "";
+                                                let nospaces_str = "";
+                                                let nospaces_rev = "";
+
+                                                //get value
+                                                let str = document.getElementById('value').value;
+                                                nospaces_str = str.replace(/\s+/g, '').toLowerCase();
+                                                nospaces_rev = Reverse(nospaces_str).toLowerCase();
+
+                                                //reverse the value
+                                                reversed = Reverse(str);
+
+                                                //compare values
+                                                if (nospaces_str == nospaces_rev) {
+                                                    document.getElementById('IsPalindrome').checked = true;
+                                                }
+                                                else
+                                                    document.getElementById('IsPalindrome').checked = false;
+
+                                                var message1 = str + " reversed is " + reversed;
+                                                var message2 = str === reversed ? " therefore " + str + " is a Palindrome. " : " therefore " + str + " is not a Palindrome. ";
+                                                document.getElementById('result').innerText = message1 + message2;
+
+
+                                                function Reverse(str) {
+                                                    let reversed = "";
+                                                    for (var i = str.length - 1; i >= 0; i--) {
+                                                        reversed += str[i];
+                                                    }
+                                                    return reversed;
+                                                }
+
+                                            });
+
+                                            $("#btnClearPal").click(function () {
+                                                $("#value").val("");
+                                                $("#result").text("");
+                                                $("#IsPalindrome").prop("checked", false);
+                                            });
+
+                                        </pre>
+
+                                        </div>
+
+
+
+
+
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+
+
+
+                    </div>
+
+
+
+                    </div>
+
+                    
+
+                    
+                    
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <!-- Sulfur JS File -->
+    <script src="~/Scripts/jquery-2.1.3.min.js"></script>
+    <script src="~/Scripts/jquery-migrate-1.2.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/owl.carousel.min.js"></script>
+    <script src="~/Scripts/jquery.appear.js"></script>
+    <script src="~/Scripts/jquery.fitvids.js"></script>
+    <script src="~/Scripts/jquery.nicescroll.min.js"></script>
+    <script src="~/Scripts/lightbox.min.js"></script>
+    <script src="~/Scripts/count-to.js"></script>
+    <script src="~/Scripts/styleswitcher.js"></script>
+    <script src="~/Scripts/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="~/Scripts/script.js"></script>
+    <script src="~/Scripts/Custom.js"></script>
+
+    <!--SyntaxHighlighter-->
+    <script src="~/Scripts/SyntaxHighlighter/scripts/shCore.js"></script>
+    <script src="~/Scripts/SyntaxHighlighter/scripts/shBrushJScript.js"></script>
+
+    <script>
+        SyntaxHighlighter.all();
+    </script>
+
+
+
+</body>
+</html>

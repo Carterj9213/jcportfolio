@@ -1,0 +1,163 @@
+﻿
+@{
+    ViewBag.Title = "JSdemo";
+}
+
+<h2>JSdemo</h2>
+
+<!--Layout a BS grid that allows me to organize he controls required for excercise-->
+
+<style>
+    .btn-wide{
+        width: 100%;
+    }
+</style>
+
+
+<div class="container">
+    <div class="row">
+        <div class=" col-md-12 h2 text-center">
+            <strong>JavaScript Excercise 1: Learn Math...</strong>
+        </div>
+    </div>
+
+    <br />
+
+    <div class="row">
+        <div class="col-md-2">Enter number 1:</div>
+        <div class="col-md-10">
+            <input type="number" id="number1" />
+
+        </div>
+
+
+    </div>
+    <div class="row">
+        <div class="col-md-2">Enter number 2:</div>
+        <div class="col-md-10">
+            <input type="number" id="number2" />
+
+        </div>
+
+
+    </div>
+    <div class="row">
+        <div class="col-md-2">Enter number 3:</div>
+        <div class="col-md-10">
+            <input type="number" id="number3" />
+
+        </div>
+
+
+    </div>
+    <div class="row">
+        <div class="col-md-2">Enter number 4:</div>
+        <div class="col-md-10">
+            <input type="number" id="number4" />
+
+        </div>
+
+
+    </div>
+    <div class="row">
+        <div class="col-md-2">Enter number 5:</div>
+        <div class="col-md-10">
+            <input type="number" id="number5" />
+
+        </div>
+
+
+    </div>
+
+    <div class="row">
+        <p id="sum"></p>
+    </div>
+
+    <br />
+
+    <div class="row">
+        <div class="col-md-3">
+            <button id="btnMath" class="btn btn-primary">Click Me</button>
+
+        </div>
+
+        <div class="col-md-3">
+            <button id="btnMath2" class="btn btn-danger">Click Me</button>
+
+        </div>
+
+        <div class="col-md-3">
+            <button id="btnClear" class="btn btn-primary">Clear</button>
+
+        </div>
+
+
+
+    </div>
+
+</div>
+
+                <!-- After all of my HTML code I can add my <script> tags for JS/jQuery -->
+@section scripts{
+    <script>
+        $("#btnMath").click(function () {
+            //Step 1: Acquire the user input
+
+            //var number1 = Number($("#number1").val());
+            var strNumber1 = $("#number1").val();
+            var number1 = Number(strNumber1);
+
+            //var number2 = Number($("#number2").val());
+            var strNumber2 = $("#number2").val();
+            var number2 = Number(strNumber2);
+
+            var number3 = Number($("#number3").val());
+            var number4 = Number($("#number4").val());
+            var number5 = Number($("#number5").val());
+
+            //Step 2: Do something with it
+            var sum = number1 + number2 + number3 + number4 + number5;
+            
+            //var sum2 = strNumber1 + strNumber2
+
+            //Step 3: Out the results to the screen
+            $("#sum").text("The sum of your input is: " + sum);
+            //$("#sum2").text("The sum of your string input is: " + sum2);
+
+        });
+
+        $("#btnMath2").click(function () {
+            DoMath();
+        });
+
+        $("#btnClear").click(function () {
+            $("#sum").text("");
+            $("#number1, #number2, #number3, #number4, #number5").val("");
+        });
+
+        function DoMath() {
+            //Step 1: Acquire the user input
+
+            //var number1 = Number($("#number1").val());
+            var strNumber1 = $("#number1").val();
+            var number1 = Number(strNumber1);
+
+            //var number2 = Number($("#number2").val());
+            var strNumber2 = $("#number2").val();
+            var number2 = Number(strNumber2);
+
+            var number3 = Number($("#number3").val());
+            var number4 = Number($("#number4").val());
+            var number5 = Number($("#number5").val());
+
+            //Step 2: Do something with it
+            var sum = number1 + number2 + number3 + number4 + number5;
+            //var sum2 = strNumber1 + strNumber2
+
+            //Step 3: Out the results to the screen
+            $("#sum").text("The sum of your input is: " + sum);
+            //$("#sum2").text("The sum of your string input is: " + sum2);
+        }
+
+    </script>
+    }

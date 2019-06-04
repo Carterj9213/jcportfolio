@@ -1,0 +1,63 @@
+﻿.btn-wide{
+    min-width: 100%;
+}
+
+
+
+.btn-primary {
+    background: red;
+    border-color: red;
+    font-size: 16px;
+    padding: 8px 15px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+    .btn-primary:hover {
+        background: transparent;
+        border-color: red;
+        color: #ff432e;
+    }
+
+.btn-danger {
+    background: blue;
+    border-color: blue;
+    font-size: 16px;
+    padding: 8px 15px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn-danger:hover {
+    background: transparent;
+    border-color: blue;
+    color: blue;
+}
+
+.btn-danger.focus, .btn-danger:focus {
+    color: white;
+    background-color: blue;
+    border-color: blue;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    color: white;
+    background-color: red;
+    border-color: red;
+}
+
+.banner{
+    background-image: url("../images/download.jfif");
+}
+
+.about-text {
+    text-align: justify
+}
+
+.about-list span {
+    color:blue
+}
